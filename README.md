@@ -1,9 +1,17 @@
 # p24
 P24 payment api
 
+## ENV
+```
+P24_HOST=https://sandbox.przelewy24.pl
+P24_USER='P24_USER' //Id
+P24_PASS='P24_PASS' //Klucz do raportów (from admin panel)
+P24_CRC='P24_CRC' //Klucz do CRC (from admin panel)
+```
+
 ## Example
 
-### Required:
+### Required data:
 ```
 $transactionRegisterPayload = new TransactionRegisterPayload();
 
