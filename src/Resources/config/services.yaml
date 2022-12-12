@@ -13,7 +13,7 @@ services:
 
     # makes classes in src/ available to be used as services
     # this creates a service per class whose id is the fully-qualified class name
-    App\:
+    Webcodefactory\P24\:
         resource: '../src/'
         exclude:
             - '../src/DependencyInjection/'
@@ -23,16 +23,16 @@ services:
 
     # controllers are imported separately to make sure services can be injected
     # as action arguments even if you don't extend any base controller class
-    App\Controller\:
+    Webcodefactory\P24\Controller\:
         resource: '../src/Controller/'
         tags: ['controller.service_arguments']
 
-    App\Client\P24\ApiClient:
+    Webcodefactory\P24\Client\P24\ApiClient:
         $host: '%env(P24_HOST)%'
         $user: '%env(P24_USER)%'
         $pass: '%env(P24_PASS)%'
 
-    App\Service\P24\PaymentService:
+    Webcodefactory\P24\Service\P24\PaymentService:
         $crc: '%env(P24_CRC)%'
 
     # add more service definitions when explicit configuration is needed

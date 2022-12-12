@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controller;
+namespace Webcodefactory\P24\Controller;
 
-use App\Exception\ApiClientException;
-use App\Request\Payload\P24\TransactionRegisterPayload;
-use App\Service\P24\PaymentService;
+use Webcodefactory\P24\Exception\ApiClientException;
+use Webcodefactory\P24\Request\Payload\P24\TransactionRegisterPayload;
+use Webcodefactory\P24\Service\P24\PaymentService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

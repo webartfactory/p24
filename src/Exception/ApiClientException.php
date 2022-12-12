@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Exception;
+namespace Webcodefactory\P24\Exception;
 
 use Exception;
 

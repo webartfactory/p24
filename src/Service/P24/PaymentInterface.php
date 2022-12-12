@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace App\Service\P24;
+namespace Webcodefactory\P24\Service\P24;
 
-use App\Request\Payload\P24\TransactionRegisterPayload;
-use App\Request\Payload\P24\TransactionVerifyPayload;
-use App\Response\P24\RegisterResponse;
-use App\Response\P24\VerifyResponse;
+use Webcodefactory\P24\Request\Payload\P24\TransactionRegisterPayload;
+use Webcodefactory\P24\Request\Payload\P24\TransactionVerifyPayload;
+use Webcodefactory\P24\Response\P24\RegisterResponse;
+use Webcodefactory\P24\Response\P24\VerifyResponse;
 
 interface PaymentInterface
 {

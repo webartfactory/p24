@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Factory\P24;
+namespace Webcodefactory\P24\Factory\P24;
 
-use App\Response\P24\RegisterResponse;
+use Webcodefactory\P24\Response\P24\RegisterResponse;
 
 class RegisterResponseFactory
 {

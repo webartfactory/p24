@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Client\P24;
+namespace Webcodefactory\P24\Client\P24;
 
-use App\Exception\ApiClientException;
+use Webcodefactory\P24\Exception\ApiClientException;
 use Psr\Log\LoggerInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;

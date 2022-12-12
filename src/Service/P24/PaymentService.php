@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace App\Service\P24;
+namespace Webcodefactory\P24\Service\P24;
 
-use App\Client\P24\ApiClient;
-use App\Enum\P24\EndpointEnum;
-use App\Factory\P24\RegisterResponseFactory;
-use App\Factory\P24\VerifyResponseFactory;
-use App\Request\Payload\P24\TransactionRegisterPayload;
-use App\Request\Payload\P24\TransactionVerifyPayload;
-use App\Response\P24\RegisterResponse;
-use App\Response\P24\VerifyResponse;
+use Webcodefactory\P24\Client\P24\ApiClient;
+use Webcodefactory\P24\Enum\P24\EndpointEnum;
+use Webcodefactory\P24\Factory\P24\RegisterResponseFactory;
+use Webcodefactory\P24\Factory\P24\VerifyResponseFactory;
+use Webcodefactory\P24\Request\Payload\P24\TransactionRegisterPayload;
+use Webcodefactory\P24\Request\Payload\P24\TransactionVerifyPayload;
+use Webcodefactory\P24\Response\P24\RegisterResponse;
+use Webcodefactory\P24\Response\P24\VerifyResponse;
 use Symfony\Component\Serializer\Normalizer\AbstractObjectNormalizer;
 use Symfony\Component\Serializer\SerializerInterface;
 

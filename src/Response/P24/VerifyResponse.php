@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Response\P24;
+namespace Webcodefactory\P24\Response\P24;
 
 class VerifyResponse extends AbstractTransactionResponse
 {
