@@ -11,23 +11,7 @@ services:
         autowire: true      # Automatically injects dependencies in your services.
         autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
-    # makes classes in src/ available to be used as services
-    # this creates a service per class whose id is the fully-qualified class name
-    Webcodefactory\P24\:
-        resource: '../src/'
-        exclude:
-            - '../src/DependencyInjection/'
-            - '../src/Entity/'
-            - '../src/Kernel.php'
-            - '../src/Tests/'
-
-    # controllers are imported separately to make sure services can be injected
-    # as action arguments even if you don't extend any base controller class
-    Webcodefactory\P24\Controller\:
-        resource: '../src/Controller/'
-        tags: ['controller.service_arguments']
-
-    Webcodefactory\P24\Client\P24\ApiClient:
+    Webcodefactory\P24\Client\ApiClient:
         $host: '%env(P24_HOST)%'
         $user: '%env(P24_USER)%'
         $pass: '%env(P24_PASS)%'
