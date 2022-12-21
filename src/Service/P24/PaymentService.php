@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Webcodefactory\P24\Service\P24;
 
 use Webcodefactory\P24\Client\P24\ApiClient;
-use Webcodefactory\P24\Enum\P24\EndpointEnum;
+use Webcodefactory\P24\Enum\EndpointEnum;
 use Webcodefactory\P24\Factory\P24\RegisterResponseFactory;
 use Webcodefactory\P24\Factory\P24\VerifyResponseFactory;
 use Webcodefactory\P24\Request\Payload\P24\TransactionRegisterPayload;

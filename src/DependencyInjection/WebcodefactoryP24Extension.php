@@ -10,7 +10,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-final class WebcodeFactoryP24Extension extends Extension
+final class WebcodefactoryP24Extension extends Extension
 {
     public function load(array $config, ContainerBuilder $container): void
     {

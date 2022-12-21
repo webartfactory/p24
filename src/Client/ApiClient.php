@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Webcodefactory\P24\Client\P24;
+namespace Webcodefactory\P24\Client;
 
 use Webcodefactory\P24\Exception\ApiClientException;
 use Psr\Log\LoggerInterface;
