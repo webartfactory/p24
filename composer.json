@@ -1,23 +1,21 @@
 {
-  "name": "webcodefactory/p24-bundle",
-  "description": "Payments library",
-  "type": "symfony-bundle",
-  "license": "MIT",
-  "minimum-stability": "stable",
-  "require": {
-    "php": ">=7.4",
-    "symfony/http-client": "5.4.*",
-    "symfony/serializer": "5.4.*",
-    "symfony/validator": "5.4.*",
-    "symfony/yaml": "5.4.*",
-    "symfony/config": "^5.4.*",
-    "symfony/dependency-injection": "^5.4.*",
-    "symfony/http-kernel": "^5.4.*",
-    "monolog/monolog": "^2.2"
-  },
-  "autoload": {
-    "psr-4": {
-      "Webcodefactory\\P24Bundle\\": "src/"
-    }
-  }
+    "name": "webcodefactory/p24-bundle",
+    "description": "Payment library",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.4",
+        "symfony/http-client": "5.4.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webcodefactory\\P24Bundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcin Drabarek",
+            "email": "drabarek@gmail.com"
+        }
+    ]
 }
