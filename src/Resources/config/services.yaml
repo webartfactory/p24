@@ -11,6 +11,9 @@ services:
         autowire: true      # Automatically injects dependencies in your services.
         autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
+    Webcodefactory\P24\:
+        resource: '../../../src/'
+
     Webcodefactory\P24\Client\ApiClient:
         $host: '%env(P24_HOST)%'
         $user: '%env(P24_USER)%'
