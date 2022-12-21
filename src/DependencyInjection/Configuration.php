@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Webcodefactory\P24Bundle\DependencyInjection;
+namespace Webcodefactory\P24\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
