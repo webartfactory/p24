@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Webcodefactory\P24\Request\Payload\P24;
+namespace Webcodefactory\P24\Request\Payload;
 
 class TransactionRegisterPayload
 {

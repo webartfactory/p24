@@ -16,7 +16,7 @@ services:
         $user: '%env(P24_USER)%'
         $pass: '%env(P24_PASS)%'
 
-    Webcodefactory\P24\Service\P24\PaymentService:
+    Webcodefactory\P24\Service\PaymentService:
         $crc: '%env(P24_CRC)%'
 
     # add more service definitions when explicit configuration is needed

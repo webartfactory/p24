@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Webcodefactory\P24\Factory\P24;
+namespace Webcodefactory\P24\Factory;
 
-use Webcodefactory\P24\Response\P24\ErrorResponse;
+use Webcodefactory\P24\Response\ErrorResponse;
 
 class ErrorResponseFactory
 {
